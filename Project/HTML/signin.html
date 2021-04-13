@@ -22,7 +22,21 @@
         <button data-aos="fade-down" data-aos-duration="2000" id="btn"><a href="../HTML/signin.html">Регистрирай се</a></button>
     </nav>
     <div id="field">
-        
+        <form action="#" method=post>
+            <label for="name"><p>Име и фамилия:</p></label>
+            <input type="text" name="fullname" placeholder="Име и фамилия"><br>
+
+            <label for="username"><p>Потребителско име:</p></label>
+            <input type="text" name="username" placeholder="Потребителско име"><br>
+
+            <label for="email"><p>Email:</p></label>
+            <input type="email" name="email" placeholder="Email"><br>
+
+            <label for="psw"><p>Парола:</p></label>
+            <input type="password" name="password" placeholder="Парола"><br><br>
+
+            <button type="submit" class="registerbtn">Регистрирай се</button>
+        </form>
     </div>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="../JS/script.js"></script>
