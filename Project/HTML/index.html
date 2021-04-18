@@ -5,24 +5,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href='../CSS/style.css' type="text/css">
-    <link rel="stylesheet" href='../CSS/info.css' type="text/css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <title>РСПБЗН БУРГАС</title>
+    <link rel="stylesheet" href="../CSS/style.css" type="text/css">
+    <title>Dos</title>
 </head>
 
 <body>
     <nav class="nav">
-        <img data-aos="fade-down" data-aos-duration="900" id="logo" src="../Images/lion.png">
+        <img id="logo" src="../Images/lion.png">
         <ul>
-            <li data-aos="fade-down" data-aos-duration="1200"><a href="../HTML/index.html">Начало</a></li>
-            <li data-aos="fade-down" data-aos-duration="1500"><a href="../HTML/signal.html">Подай сигнал</a></li>
-            <li data-aos="fade-down" data-aos-duration="1700"><a href="../HTML/info.html">Инфо</a></li>
+            <li><a class="link" href="../HTML/index.html">Начало</a></li>
+            <li><a class="link" href="#">Подай сигнал</a></li>
+            <li><a class="link" href="#">Пожарникари</a></li>
+            <li><a class="link" href="#">Автомобили</a></li>
         </ul>
-        <button data-aos="fade-down" data-aos-duration="2000" id="btn"><a href="../HTML/signin.html">Регистрирай се</a></button>
+        <button id="btn"><a class="link" href="../HTML/signin.html">Регистрирайсе</a></button>
     </nav>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="../JS/script.js"></script>
+    <header class="main-header">
+        <h1>РСПБЗН Бургас</h1>
+        <p>
+            Грижим се за вашата сигурност.
+        </p>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <img src="../Images/signal.jpg" alt="" />
+            <div>
+                <h3>Подай сигнал</h3>
+                <p>
+                    Тук можете да подадете сигнал.
+                </p>
+                <a href="#" class="btn">Подай сигнал</a>
+            </div>
+        </section>
+
+        <section class="card">
+            <img src="../Images/firefighter.png" alt="" />
+            <div>
+                <h3>Подай сигнал</h3>
+                <p>
+                    Тук можете да проверите наличните пожарникари и да видите допълнителна информация за тях.
+                </p>
+                <a href="#" class="btn">Пожарникари</a>
+            </div>
+        </section>
+
+        <section class="card">
+            <img src="../Images/truck.jpg" alt="" />
+            <div>
+                <h3>Автомобили</h3>
+                <p>
+                    Тук можете да проверите наличните автомобили и да видите допълнителна информация за тях.
+                </p>
+                <a href="#" class="btn">Автомобили</a>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
