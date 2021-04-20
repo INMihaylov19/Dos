@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Orelega One', cursive;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#fpage {
+    background: linear-gradient(rgba(0,0,0,0.5), rgb(109, 37, 37)),url(../IMAGES/7415300266_fe51a65aa8_b.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
