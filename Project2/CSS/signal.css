@@ -105,5 +105,13 @@ form {
     color: #ffffff;
   }
 
+  @media screen and (max-width: 770px) {
+
+    form {
+      width: 90%;
+    }
+
+  }
+
 
   
