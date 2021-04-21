@@ -8,18 +8,15 @@
 
 body {
     font-family: 'Orelega One', cursive;
+    background: linear-gradient(rgba(0,0,0,0.5), rgb(109, 37, 37)),url(../IMAGES/7415300266_fe51a65aa8_b.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Orelega One', cursive;
+    height: 100vh;
 }
 
 ::-webkit-scrollbar {
     display: none;
-}
-
-#fpage {
-    background: linear-gradient(rgba(0,0,0,0.5), rgb(109, 37, 37)),url(../IMAGES/7415300266_fe51a65aa8_b.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    width: 100vw;
 }
 
 .fpage-text {
@@ -119,4 +116,27 @@ span {
 @keyframes button2 {
     0%      {right: -1100px;}
     100%    {right: 0;}    
+}
+
+@media screen and (max-width: 770px)
+{
+
+    .buttons {
+        display: block;
+        margin-left: -150px;
+    }
+
+    #info {
+        margin-top: 10px;
+    }
+
+    .fpage-text h1 {
+        margin-left: -110px;
+        font-size: 40px;
+    }
+
+    .fpage-text p {
+        margin-left: -130px;
+    }
+
 }
