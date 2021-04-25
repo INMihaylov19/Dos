@@ -30,7 +30,7 @@ const addSignal = (ev) => {
     }
     signali.push(signal);
     document.forms[0].reset();
-    localStorage.setItem('Signali', JSON.stringify(signali));
+    window.localStorage.setItem('Signali', JSON.stringify(signali));
     counter++;
 }
 
