@@ -10,31 +10,31 @@
 </head>
 
 <body>
-    <form method="post">
+    <form class="signal-form" name="signalForm">
         <label>
-            <input id="text" type="text" class="input" name="name" placeholder="ENTER NAME" />
+            <input id="text" type="text" class="input" name="name" placeholder="Въведете име" />
             <div class="line-box">
                 <div class="line"></div>
             </div>
         </label>
 
         <label>
-            <input id="text" type="text" class="input" name="tnumber" placeholder="ENTER TELEFON" />
+            <input id="text" type="number" class="input" name="tnumber" placeholder="Въведете телефонен номер" />
             <div class="line-box">
                 <div class="line"></div>
             </div>
         </label>
 
         <label>
-            <input id="text" type="text" class="input" name="adres" placeholder="ENTER ADRES" />
+            <input id="text" type="text" class="input" name="adres" placeholder="Въведете адрес" />
             <div class="line-box">
                 <div class="line"></div>
             </div>
         </label>
-
-        <input class="button" type="submit" value="Submit"><br><br>
-        <button class="button"><a href="../HTML/index.html">Назад</a></button>
+        <input class="button" id="btn" type="submit" value="Изпращане"><br><br>
+        <a href="../HTML/index.html">Назад</a>
     </form>
 </body>
+<script src="../JS/script.js"></script>
 
 </html>
