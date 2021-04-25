@@ -11,6 +11,7 @@ body {
     background-size: cover;
     background-position: center;
     font-family: 'Orelega One', cursive;
+    height: 82vh;
 }
 
 ::-webkit-scrollbar {
@@ -76,6 +77,17 @@ form {
   
   .label-active {
     top: -3em;
+  }
+
+  #back-btn {
+    text-decoration: none;
+    color: rgb(120,120,120);
+    transition: 0.5s;
+  }
+
+  #back-btn:hover {
+    transition: 0.5s;
+    color: rgba(85, 43, 45, 0.562);
   }
   
   .button {
