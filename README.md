@@ -21,5 +21,3 @@
 
 [•Presentation](Documents/Presentation.pptx) <br><br>
 [•Documentation](Documents/Documentation.docx)
-
-# Pictures of final product
