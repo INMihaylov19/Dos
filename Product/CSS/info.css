@@ -12,7 +12,7 @@ body {
     background-size: cover;
     background-position: center;
     font-family: 'Orelega One', cursive;
-    height: 100vh;
+    height: 150vh;
 }
 
 ::-webkit-scrollbar {
@@ -122,6 +122,33 @@ body {
     animation-fill-mode: forwards;
 }
 
+#signal_card {
+    display: flex;
+    justify-content: center;
+}
+
+#list1 {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    list-style: none;
+    font-size: 20px;
+    color: rgba(0,0,0,0.5);
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+    line-height: 1.5;
+    position: relative;
+    animation: list1;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes list1 {
+    0%      {left: -1500px;}
+    100%    {left: 0;}
+}
+
 @keyframes button1 {
     0%      {left: -200px;}
     100%    {left: 0;}    
@@ -134,3 +161,4 @@ body {
         justify-content: center;
     }
 }
+
