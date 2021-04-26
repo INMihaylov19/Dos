@@ -5,7 +5,7 @@ for (const sgnl of signals) {
   const sgnlc = Object.assign(sgnl);
   delete sgnlc.id;
   count++;
-  document.body.innerHTML += `<p>${sgnlc.name} е изпратил сигнал за пожар на адрес ${sgnlc.adres} (телефонен номер - ${sgnlc.tnumber} )</p>`;
+  document.getElementById("list1").innerHTML += `<p>${sgnlc.name} е изпратил сигнал за пожар на адрес ${sgnlc.adres} (телефонен номер - ${sgnlc.tnumber} )</p>`;
 }
 
 if (count >= 1) {
