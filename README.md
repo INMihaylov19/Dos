@@ -1,7 +1,7 @@
 # Dos
 <hr>
 
-<img src = "/ReadMe/logo.png">
+<img src = "/ReadMe/Logo.png">
 
 # Participants:
 
