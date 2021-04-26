@@ -20,6 +20,10 @@ function validate(e) {
 
 var counter = 1;
 let signali = [];
+if (window.localStorage.hasOwnProperty('Signali')) {
+    signali = JSON.parse(window.localStorage.Signali)
+}
+
 const addSignal = (ev) => {
 
     let signal = {
